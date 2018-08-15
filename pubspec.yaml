@@ -14,7 +14,10 @@ environment:
 dependencies:
 
   rxdart : ^0.18.0 
-  quiver_hashcode: ^1.0.0 
+  quiver_hashcode:
+    git:
+      url: https://github.com/pulyaevskiy/quiver_hashcode.git
+      ref: support-dart2
   json_annotation: ^0.2.3
 
 dev_dependencies:
